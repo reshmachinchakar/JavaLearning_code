@@ -1,0 +1,30 @@
+var x,y,z;
+console.log(x);
+x=null;
+console.log(x);
+console.log(typeof x);
+console.log("====before value====");
+x=10;
+console.log("x=",x);
+y=20;
+console.log("y=",y);
+
+console.log("====after value=====");
+z=x;
+x=y;
+y=z;
+console.log("x=",x);
+console.log("y=",y);
+
+console.log("====================================");
+var a,b,c;
+a=100;
+b=200;
+if(b<a){
+    console.log("a is greater than b");
+}
+else
+{
+    console.log("b is greater than a");
+}
+
