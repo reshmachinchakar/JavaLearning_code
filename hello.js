@@ -4,5 +4,5 @@ console.log(myName);
 myName="Rajveer";
 console.log(myName);
 
-var myFriendName="Access shubhangi";
+var myFriendName="shubhangi Repository";
 console.log(myFriendName);
