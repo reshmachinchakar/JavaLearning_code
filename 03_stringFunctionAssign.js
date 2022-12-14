@@ -1,0 +1,31 @@
+console.log(`=======First Assignment============`);
+
+var squareOfWordLength= function(dispString){
+
+    console.log(`Length of ${dispString} is:${dispString.length}`);
+    console.log(`Square of given string is:${dispString.length*dispString.length}`);
+ 
+}
+squareOfWordLength("JavaScript");
+squareOfWordLength("Google Chrome");
+squareOfWordLength("Developer Smart");
+
+console.log(`======Second Assignment============`);
+
+var develpString=function(){
+    var stringName="I am Angular Developer";
+    console.log(`Given string is:${stringName}`);
+    console.log(`Length of given string is:${stringName.length}`);
+     
+    var trimSpaces=stringName.split(" ");
+    console.log(`Total words in given string:${trimSpaces.length}`);
+
+    console.log(`Length of the string is divided by count of word:${stringName.length/trimSpaces.length}`);
+
+    console.log(`Length of the string is multiply by count of word:${stringName.length*trimSpaces.length}`);
+    
+    // console.log(`${stringName.split(" ")}`);
+
+
+}
+develpString();
