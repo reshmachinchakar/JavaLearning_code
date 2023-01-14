@@ -1,0 +1,70 @@
+const array_Number=[1,-7,40,502,-77,91,0,108,89,-601];
+console.log(`1)Array Element with its Index Using ForEach() Method `);
+
+array_Number.forEach((currentValue,index) => {
+
+console.log(`currentValue:${currentValue} ,Index:${index}`);
+});
+
+console.log(`------------------------------------------`);
+console.log(`2)using ForEach() with Arrow Function`);
+let conct= [];
+array_Number.forEach((currentValue) => {
+    if(currentValue>0)
+    {
+       conct.push(currentValue);
+    }
+
+} );
+console.log(`Positive no is-`);
+console.log(conct);
+console.log(`------------------------------------------`);
+console.log(`3)Find Negative No. and Add New array`);
+
+let arrayNew=[];
+
+array_Number.forEach((currentValue) => {
+if(currentValue<0)
+{
+    arrayNew.push(currentValue);
+ 
+}
+
+
+});
+console.log(`Added New Array `);
+console.log(arrayNew);
+console.log(`-----------------------------------`);
+console.log(`4)Even Numbers By using Arrow Function`);
+let conctArr=[];
+array_Number.forEach((currentValue)=>{
+if(currentValue%2==0 && currentValue>=0)
+{
+   conctArr.push(currentValue);
+}
+
+});
+console.log(`Number is Even:`);
+console.log(conctArr);
+console.log(`----------------------------------------`);
+//console.log(`5)Sum of Array Numbers Using Arrow Function`);
+
+let sum=0;
+array_Number.forEach((currentValue)=>{
+sum=sum+currentValue;
+
+});
+console.log(`5)Sum of array numbers is:${sum}`);
+
+console.log(`----------------------------------------`);
+console.log(`6)Even Positioned of Array using Arrow Function`);
+let even=[];
+array_Number.forEach((currentValue,index)=>{
+if(index%2==0)
+{
+   even.push(currentValue);
+}
+
+});
+//console.log(`Even Index is:`);
+console.log(even);

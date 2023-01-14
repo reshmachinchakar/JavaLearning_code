@@ -1,0 +1,27 @@
+const arrayDemo=[10,40,30,45];
+console.log(arrayDemo[0]);
+console.log(arrayDemo.length);
+arrayDemo[3]=99;
+console.log(arrayDemo[3]);
+//arrayDemo.length=10;//to set array size
+console.log(arrayDemo);
+const aa=arrayDemo.push(66,88);
+console.log(arrayDemo);
+console.log(arrayDemo.pop());
+console.log(arrayDemo);
+console.log(arrayDemo.unshift(110));
+console.log(arrayDemo);
+console.log(arrayDemo.shift());
+console.log(arrayDemo);
+//console.log(arrayDemo.slice(1,3));
+const bb=arrayDemo.slice(1,3);
+console.log(bb);
+const cc=arrayDemo.splice(2,4);
+console.log(cc);
+console.log(arrayDemo);
+const dd=arrayDemo.splice(1,0,55);
+console.log(arrayDemo);
+const dd1=arrayDemo.splice(1,3,5775);
+console.log(arrayDemo);
+//console.log(arrayDemo.splice(2));
+console.log(arrayDemo);
